@@ -1,1 +1,3 @@
-# start-cruddb \n docker-compose up -d
+python3 -m venv .venv
+. .venv/bin/activate
+docker-compose up -d
